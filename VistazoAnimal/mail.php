@@ -48,5 +48,4 @@
 		echo '<div>Your message sending failed!</div>';
 	}
 
-	
 ?>
