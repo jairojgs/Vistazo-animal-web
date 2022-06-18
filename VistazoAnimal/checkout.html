@@ -85,7 +85,6 @@
 									<ul class="sub-menu">
 										<li><a href="shop.html">Tienda</a></li>
 										<li><a href="checkout.html">Tramitar pedidos</a></li>
-										<li><a href="single-product.html">Single Product</a></li>
 										<li><a href="cart.html">Carrito</a></li>
 									</ul>
 								</li>
@@ -115,8 +114,8 @@
 					<span class="close-btn"><i class="fas fa-window-close"></i></span>
 					<div class="search-bar">
 						<div class="search-bar-tablecell">
-							<h3>Search For:</h3>
-							<input type="text" placeholder="Keywords">
+							<h3>Introduzca la palabra para buscar:</h3>
+							<input type="text" placeholder="Ejemplo">
 							<button type="submit">Search <i class="fas fa-search"></i></button>
 						</div>
 					</div>
@@ -132,8 +131,8 @@
 			<div class="row">
 				<div class="col-lg-8 offset-lg-2 text-center">
 					<div class="breadcrumb-text">
-						<p>Carrito</p>
-						<h1>Tramitar compras</h1>
+						<p>Mi Cuenta</p>
+						<h1>Datos personales</h1>
 					</div>
 				</div>
 			</div>
@@ -152,7 +151,7 @@
 						    <div class="card-header" id="headingOne">
 						      <h5 class="mb-0">
 						        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-						          Billing Address
+									Información
 						        </button>
 						      </h5>
 						    </div>
@@ -161,28 +160,29 @@
 						      <div class="card-body">
 						        <div class="billing-address-form">
 						        	<form action="index_2.html">
-						        		<p><input type="text" placeholder="Name"></p>
+						        		<p><input type="text" placeholder="Nombre"></p>
 						        		<p><input type="email" placeholder="Email"></p>
-						        		<p><input type="text" placeholder="Address"></p>
-						        		<p><input type="tel" placeholder="Phone"></p>
-						        		<p><textarea name="bill" id="bill" cols="30" rows="10" placeholder="Say Something"></textarea></p>
+						        		<p><textarea name="bill" id="bill" cols="30" rows="10" placeholder="Otros detalles"></textarea></p>
 						        	</form>
 						        </div>
 						      </div>
 						    </div>
 						  </div>
-						  <div class="card single-accordion">
+						<div class="card single-accordion">
 						    <div class="card-header" id="headingTwo">
 						      <h5 class="mb-0">
 						        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-						          Shipping Address
+									Información personal
 						        </button>
 						      </h5>
 						    </div>
 						    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
 						      <div class="card-body">
-						        <div class="shipping-address-form">
-						        	<p>Your shipping address form is here.</p>
+								<div class="billing-address-form">
+						        	<form action="index_2.html">
+						        		<p><input type="text" placeholder="Dirección"></p>
+						        		<p><input type="tel" placeholder="Nº Teléfono"></p>
+						        	</form>
 						        </div>
 						      </div>
 						    </div>
@@ -191,14 +191,14 @@
 						    <div class="card-header" id="headingThree">
 						      <h5 class="mb-0">
 						        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-						          Card Details
+						          Detalles tarjeta
 						        </button>
 						      </h5>
 						    </div>
 						    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
 						      <div class="card-body">
 						        <div class="card-details">
-						        	<p>Your card details goes here.</p>
+						        	<p>000 000 000</p>
 						        </div>
 						      </div>
 						    </div>
@@ -213,26 +213,22 @@
 						<table class="order-details">
 							<thead>
 								<tr>
-									<th>Your order Details</th>
-									<th>Price</th>
+									<th>Detalles del pedido</th>
+									<th>Precio</th>
 								</tr>
 							</thead>
 							<tbody class="order-details-body">
 								<tr>
-									<td>Product</td>
+									<td>Producto</td>
 									<td>Total</td>
 								</tr>
 								<tr>
-									<td>Strawberry</td>
-									<td>$85.00</td>
+									<td>Pase de 1 dia</td>
+									<td>$65.00</td>
 								</tr>
 								<tr>
-									<td>Berry</td>
-									<td>$70.00</td>
-								</tr>
-								<tr>
-									<td>Lemon</td>
-									<td>$35.00</td>
+									<td>Pase de 2 dias</td>
+									<td>$75.00</td>
 								</tr>
 							</tbody>
 							<tbody class="checkout-details">
@@ -241,7 +237,7 @@
 									<td>$190</td>
 								</tr>
 								<tr>
-									<td>Shipping</td>
+									<td>IVA</td>
 									<td>$50</td>
 								</tr>
 								<tr>
@@ -250,7 +246,7 @@
 								</tr>
 							</tbody>
 						</table>
-						<a href="#" class="boxed-btn">Place Order</a>
+						<a href="#" class="boxed-btn">Aplicar</a>
 					</div>
 				</div>
 			</div>
@@ -338,9 +334,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 col-md-12">
-					<p>Copyrights &copy; 2019 - <a href="https://imransdesign.com/">Imran Hossain</a>,  All Rights Reserved.<br>
-						Distributed By - <a href="https://themewagon.com/">Themewagon</a>
-					</p>
+					
 				</div>
 				<div class="col-lg-6 text-right col-md-12">
 					<div class="social-icons">
