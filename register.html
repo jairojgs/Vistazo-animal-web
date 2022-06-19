@@ -7,7 +7,7 @@
 	<meta name="description" content="Responsive Bootstrap4 Tienda Template, Created by Imran Hossain from https://imransdesign.com/">
 
 	<!-- title -->
-	<title>Contactar</title>
+	<title>Noticias</title>
 
 	<!-- favicon -->
 	<link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
@@ -50,7 +50,7 @@
 					<div class="main-menu-wrap">
 						<!-- logo -->
 						<div class="site-logo">
-							<a href="index_2.html">
+							<a href="index.html">
 								<img src="assets/img/logo.png" alt="">
 							</a>
 						</div>
@@ -61,7 +61,7 @@
 							<ul>
 								<li class="current-list-item"><a href="#">Inicio</a>
 									<ul class="sub-menu">
-										<li><a href="index_2.html">Inicio</a></li>
+										<li><a href="index.html">Inicio</a></li>
 									</ul>
 								</li>
 								<li><a href="about.html">Acerca de</a></li>
@@ -131,8 +131,8 @@
 			<div class="row">
 				<div class="col-lg-8 offset-lg-2 text-center">
 					<div class="breadcrumb-text">
-						<p>Soporte las 24h del día</p>
-						<h1>Contáctanos</h1>
+						<p>Vistazo Animal</p>
+						<h1>Articulos</h1>
 					</div>
 				</div>
 			</div>
@@ -140,71 +140,81 @@
 	</div>
 	<!-- end breadcrumb section -->
 
-	<!-- contact form -->
-	<div class="contact-from-section mt-150 mb-150">
+	<!-- latest news -->
+	
+	<form class="formulario">
+    
+		<h1>Registrate</h1>
+		<div class="contenedor">
+		
+		<div class="input-contenedor">
+			<i class="fas fa-user icon"></i>
+			<input type="text" placeholder="Nombre">
+		</div>
+
+		<div class="input-contenedor">
+			<i class="fas fa-user icon"></i>
+			<input type="text" placeholder="Primer apellido">
+		</div>
+
+		<div class="input-contenedor">
+			<i class="fas fa-user icon"></i>
+			<input type="text" placeholder="Segundo apellido">
+		</div>
+
+			<div class="input-contenedor">
+			<i class="fas fa-envelope icon"></i>
+			<input type="text" placeholder="Correo Electronico">
+			</div>
+			
+			<div class="input-contenedor">
+				<i class="fas fa-user icon"></i>
+				<input type="text" placeholder="Telefono">
+			</div>
+
+			<div class="input-contenedor">
+				<i class="fas fa-key icon"></i>
+			<input type="password" placeholder="Contraseña">
+			
+			</div>
+			<input type="submit" value="Registrate" class="button">
+			<p>Al registrarte, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
+			<p style="text-align: center;">¿Ya tienes una cuenta?<a class="link" href="login.html">Iniciar Sesion</a></p>
+		</div>
+	</form>
+
+
+
+
+	<!-- end latest news -->
+
+	<!-- logo carousel -->
+	<div class="logo-carousel-section">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-8 mb-5 mb-lg-0">
-					<div class="form-title">
-						<h2>¿Tienes alguna pregunta?</h2>
-						<p>Dejanos contactar contigo para resolver tus dudas</p>
-					</div>
-				 	<div id="form_status"></div>
-					<div class="contact-form">
-						<form type="POST" id="fruitkha-contact" onSubmit="return valid_datas( this );">
-							<p>
-								<input type="text" placeholder="Nombre" name="name" id="name">
-								<input type="email" placeholder="Email" name="email" id="email">
-							</p>
-							<p>
-								<input type="tel" placeholder="Nº Teléfono" name="phone" id="phone">
-								<input type="text" placeholder="Asunto" name="subject" id="subject">
-							</p>
-							<p><textarea name="message" id="message" cols="30" rows="10" placeholder="Mensaje"></textarea></p>
-							<input type="hidden" name="token" value="FsWga4&@f6aw" />
-							<p><input type="submit" value="Mandar"></p>
-						</form>
-					</div>
-				</div>
-				<div class="col-lg-4">
-					<div class="contact-form-wrap">
-						<div class="contact-form-box">
-							<h4><i class="fas fa-map"></i> Direccion</h4>
-							<p>Casa de Campo, s/n <br> 28011 <br> Madrid</p>
+				<div class="col-lg-12">
+					<div class="logo-carousel-inner">
+						<div class="single-logo-item">
+							<img src="assets/img/company-logos/1.png" alt="">
 						</div>
-						<div class="contact-form-box">
-							<h4><i class="far fa-clock"></i> Horario</h4>
-							<p>LUNES - VIERNES: 8:00AM - 9:00PM <br> SABADOS - DOMINGOS: 10:00AM to 8:00PM </p>
+						<div class="single-logo-item">
+							<img src="assets/img/company-logos/2.png" alt="">
 						</div>
-						<div class="contact-form-box">
-							<h4><i class="fas fa-address-book"></i> Contactar</h4>
-							<p>Telefono: (+34) 911 54 74 79 <br> Email: vistazoanimal@gmail.com</p>
+						<div class="single-logo-item">
+							<img src="assets/img/company-logos/3.png" alt="">
+						</div>
+						<div class="single-logo-item">
+							<img src="assets/img/company-logos/4.png" alt="">
+						</div>
+						<div class="single-logo-item">
+							<img src="assets/img/company-logos/5.png" alt="">
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- end contact form -->
-
-	<!-- find our location -->
-	<div class="find-location blue-bg">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 text-center">
-					<p> <i class="fas fa-map-marker-alt"></i> Encuéntranos</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- end find our location -->
-
-	<!-- google map section -->
-	<div class="embed-responsive embed-responsive-21by9">
-		<iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJNYSAj_2HQQ0Rf22sEWIlQFU&key=AIzaSyBp5NOcznXWYgLeNnRGb_P46UoFw5mKEX8" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" class="embed-responsive-item"></iframe>
-	</div>
-	<!-- end google map section -->
-
+	<!-- end logo carousel -->
 
 	<!-- footer -->
 	<div class="footer-area">
@@ -230,7 +240,7 @@
 					<div class="footer-box pages">
 						<h2 class="widget-title">Pestañas</h2>
 						<ul>
-							<li><a href="index_2.html">Inicio</a></li>
+							<li><a href="index.html">Inicio</a></li>
 							<li><a href="about.html">Acerca de</a></li>
 							<li><a href="services.html">Tienda</a></li>
 							<li><a href="news.html">Noticias</a></li>
@@ -242,7 +252,7 @@
 					<div class="footer-box subscribe">
 						<h2 class="widget-title">Suscribirse</h2>
 						<p>Suscribete para recibir alertas de las últimas noticias.</p>
-						<form action="index_2.html">
+						<form action="index.html">
 							<input type="email" placeholder="Email">
 							<button type="submit"><i class="fas fa-paper-plane"></i></button>
 						</form>
@@ -294,10 +304,8 @@
 	<script src="assets/js/jquery.meanmenu.min.js"></script>
 	<!-- sticker js -->
 	<script src="assets/js/sticker.js"></script>
-	<!-- form validation js -->
-	<script src="assets/js/form-validate.js"></script>
 	<!-- main js -->
 	<script src="assets/js/main.js"></script>
-	
+
 </body>
 </html>
