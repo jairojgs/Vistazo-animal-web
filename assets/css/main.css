@@ -2769,7 +2769,7 @@ table.order-details tbody td {
   padding: 3px;
 }
 h1{
-  text-align: center;
+  /* text-align: center; */
   color: #1a2537;
   font-size: 40px;
 }
